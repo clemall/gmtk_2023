@@ -1,0 +1,952 @@
+fileFormatVersion: 2
+guid: 0cf6f871ceb16dd47aebfc70bca5fca6
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 32
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 0
+    defaultPivotSpace: 1
+    defaultPivotAlignment: 0
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 0
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 0
+    defaultPivotSpace: 1
+    defaultPivotAlignment: 0
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 0
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638244137688093950
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: 'Plankton '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 928
+      y: 389
+      width: 4
+      height: 5
+    spriteID: d97ef4f16bf927a4fad00f29a2d23fdf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 928, y: 389}
+  - name: Plankton 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 915
+      y: 389
+      width: 5
+      height: 5
+    spriteID: 44d2f6e2317e80547bdc37f6e6fbf957
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 915, y: 389}
+  - name: Plankton 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 767
+      y: 438
+      width: 4
+      height: 7
+    spriteID: 8d73923041d45a74788362abaead53df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 767, y: 438}
+  - name: Plankton 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 753
+      y: 438
+      width: 6
+      height: 5
+    spriteID: 7ec2c207ec030a041a182ad0e5616dc8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 753, y: 438}
+  - name: fish_pole
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 841
+      y: 423
+      width: 5
+      height: 13
+    spriteID: ce0396f54610e004c897367aaa86eb92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 841, y: 423}
+  - name: fishing pole
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 779
+      y: 438
+      width: 1
+      height: 5
+    spriteID: cad48d80ec136d943823527b159beaa2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 779, y: 438}
+  - name: Fisher_man
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 825
+      y: 423
+      width: 8
+      height: 13
+    spriteID: bbdf980a9d0ad274482bcbea821ba145
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 825, y: 423}
+  - name: fisher_man_pixel
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 825
+      y: 444
+      width: 1
+      height: 1
+    spriteID: aab477bfa8f7ea946be0c9325a498403
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 825, y: 444}
+  - name: Energy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 676
+      y: 492
+      width: 12
+      height: 13
+    spriteID: 706714f5b294e974a9e9b286367a36eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 676, y: 492}
+  - name: warning
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 652
+      y: 492
+      width: 16
+      height: 14
+    spriteID: 3d3ee3e9c0692ed44a6de4d847f59036
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 652, y: 492}
+  - name: harpoon
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 825
+      y: 389
+      width: 82
+      height: 6
+    spriteID: 19e1b27c13563bb46b6cd727a03a24a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 825, y: 389}
+  - name: bulles
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 825
+      y: 403
+      width: 12
+      height: 12
+    spriteID: 6c27146ffe816cb44ab548760e020279
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 825, y: 403}
+  - name: bulles2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 739
+      y: 438
+      width: 6
+      height: 6
+    spriteID: 4af30fd6e969e314aaacddb841afa0d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 739, y: 438}
+  - name: rocks
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 219
+      width: 640
+      height: 121
+    spriteID: 6db65233e191d304a806ffaaa48143b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 219}
+  - name: rock_bg
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 640
+      height: 207
+    spriteID: 1862feea93264fe47a7a8d75b1f136e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: plant
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 652
+      y: 389
+      width: 40
+      height: 95
+    spriteID: 09951b752dcdd3a4c8e6c070b55b9a09
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 652, y: 389}
+  - name: plant2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 700
+      y: 389
+      width: 31
+      height: 57
+    spriteID: 86836ee8cba62bc439b11fa3d6b036e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 700, y: 389}
+  - name: plant3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 788
+      y: 389
+      width: 29
+      height: 55
+    spriteID: 6b303159a2d7fff469f9d59c67bc8f49
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 788, y: 389}
+  - name: surface
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 389
+      width: 640
+      height: 20
+    spriteID: 7149d8acc42139b40a4edef885abd2d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 389}
+  - name: raylight
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 348
+      width: 599
+      height: 33
+    spriteID: 10a1cc64a97eba54fbee9567b17b983b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 348}
+  - name: trash1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 739
+      y: 389
+      width: 41
+      height: 41
+    spriteID: 32d42e80ccea82d4a97ace21790f1ff0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 739, y: 389}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1183225043
+    name: 'Plankton '
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: 'Plankton '
+      frameIndex: 0
+      cellRect:
+        x: 293
+        y: 190
+        width: 4
+        height: 5
+      spriteId: d97ef4f16bf927a4fad00f29a2d23fdf
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 1
+    guid: -1081615394
+    name: Plankton 2
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Plankton 2
+      frameIndex: 0
+      cellRect:
+        x: 293
+        y: 174
+        width: 5
+        height: 5
+      spriteId: 44d2f6e2317e80547bdc37f6e6fbf957
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 2
+    guid: -46682052
+    name: Plankton 3
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Plankton 3
+      frameIndex: 0
+      cellRect:
+        x: 310
+        y: 172
+        width: 4
+        height: 7
+      spriteId: 8d73923041d45a74788362abaead53df
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 3
+    guid: 833017370
+    name: Plankton 4
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Plankton 4
+      frameIndex: 0
+      cellRect:
+        x: 309
+        y: 190
+        width: 6
+        height: 5
+      spriteId: 7ec2c207ec030a041a182ad0e5616dc8
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 4
+    guid: 395006301
+    name: fish_pole
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: fish_pole
+      frameIndex: 0
+      cellRect:
+        x: 230
+        y: 216
+        width: 5
+        height: 13
+      spriteId: ce0396f54610e004c897367aaa86eb92
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 5
+    guid: -1302169729
+    name: fishing pole
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: fishing pole
+      frameIndex: 0
+      cellRect:
+        x: 232
+        y: 229
+        width: 1
+        height: 5
+      spriteId: cad48d80ec136d943823527b159beaa2
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 6
+    guid: 1239087330
+    name: Fisher_man
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Fisher_man
+      frameIndex: 0
+      cellRect:
+        x: 386
+        y: 232
+        width: 8
+        height: 13
+      spriteId: bbdf980a9d0ad274482bcbea821ba145
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 7
+    guid: 390507566
+    name: fisher_man_pixel
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: fisher_man_pixel
+      frameIndex: 0
+      cellRect:
+        x: 389
+        y: 247
+        width: 1
+        height: 1
+      spriteId: aab477bfa8f7ea946be0c9325a498403
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 8
+    guid: -40617390
+    name: Energy
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Energy
+      frameIndex: 0
+      cellRect:
+        x: 513
+        y: 202
+        width: 12
+        height: 13
+      spriteId: 706714f5b294e974a9e9b286367a36eb
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 9
+    guid: -211840141
+    name: warning
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: warning
+      frameIndex: 0
+      cellRect:
+        x: 432
+        y: 234
+        width: 16
+        height: 14
+      spriteId: 3d3ee3e9c0692ed44a6de4d847f59036
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 10
+    guid: 1821762731
+    name: harpoon
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: harpoon
+      frameIndex: 0
+      cellRect:
+        x: 398
+        y: 166
+        width: 82
+        height: 6
+      spriteId: 19e1b27c13563bb46b6cd727a03a24a1
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 11
+    guid: 100490926
+    name: bulles
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: bulles
+      frameIndex: 0
+      cellRect:
+        x: 290
+        y: 266
+        width: 12
+        height: 12
+      spriteId: 6c27146ffe816cb44ab548760e020279
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 12
+    guid: 526501047
+    name: bulles2
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: bulles2
+      frameIndex: 0
+      cellRect:
+        x: 308
+        y: 269
+        width: 6
+        height: 6
+      spriteId: 4af30fd6e969e314aaacddb841afa0d6
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 13
+    guid: 1870078577
+    name: rocks
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: rocks
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 640
+        height: 121
+      spriteId: 6db65233e191d304a806ffaaa48143b6
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 14
+    guid: -1056573103
+    name: rock_bg
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: rock_bg
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 14
+        width: 640
+        height: 207
+      spriteId: 1862feea93264fe47a7a8d75b1f136e5
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 15
+    guid: -150186680
+    name: plant
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: plant
+      frameIndex: 0
+      cellRect:
+        x: 38
+        y: 0
+        width: 40
+        height: 95
+      spriteId: 09951b752dcdd3a4c8e6c070b55b9a09
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 16
+    guid: 223297733
+    name: plant2
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: plant2
+      frameIndex: 0
+      cellRect:
+        x: 107
+        y: 0
+        width: 31
+        height: 57
+      spriteId: 86836ee8cba62bc439b11fa3d6b036e4
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 17
+    guid: 1258231077
+    name: plant3
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: plant3
+      frameIndex: 0
+      cellRect:
+        x: 162
+        y: 0
+        width: 29
+        height: 55
+      spriteId: 6b303159a2d7fff469f9d59c67bc8f49
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 18
+    guid: -691491609
+    name: surface
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: surface
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 340
+        width: 640
+        height: 20
+      spriteId: 7149d8acc42139b40a4edef885abd2d0
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 19
+    guid: -733116019
+    name: raylight
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: raylight
+      frameIndex: 0
+      cellRect:
+        x: 22
+        y: 241
+        width: 599
+        height: 33
+      spriteId: 10a1cc64a97eba54fbee9567b17b983b
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 20
+    guid: -2083059911
+    name: trash1
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: trash1
+      frameIndex: 0
+      cellRect:
+        x: 344
+        y: 12
+        width: 41
+        height: 41
+      spriteId: 32d42e80ccea82d4a97ace21790f1ff0
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 640, y: 360}

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - postprocess
+  - 
+  - 
+  - 
+  - player
+  - fish_pole
+  - hurt_player
+  - plankton
+  - catch_trash
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 1444464937
+    locked: 0
+  - name: game
+    uniqueID: 788132927
+    locked: 0
+  - name: blue
+    uniqueID: 579569967
+    locked: 0
+  - name: Above blue
+    uniqueID: 1008870799
+    locked: 0
+  - name: UI
+    uniqueID: 2923856045
+    locked: 0
