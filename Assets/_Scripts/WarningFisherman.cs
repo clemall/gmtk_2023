@@ -27,7 +27,7 @@ public class WarningFisherman : MonoBehaviour
         for (int i = 0; i < FishermanManager.instance.fishermanInGame.Count; i++)
         {
             if (FishermanManager.instance.fishermanInGame[i].transform.position.y > camera.position.y + 5.5f &&
-                Mathf.Abs(FishermanManager.instance.fishermanInGame[i].transform.position.y - camera.position.y + 5.5f) < 23f
+                Mathf.Abs(FishermanManager.instance.fishermanInGame[i].transform.position.y - camera.position.y + 5.5f) < 26f
                 )
             {
                 warnings[i].SetActive(true);

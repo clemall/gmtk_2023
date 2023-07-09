@@ -126,7 +126,7 @@ ScriptedImporter:
     border: {x: 5, y: 5, z: 4, w: 5}
     rect:
       serializedVersion: 2
-      x: 383
+      x: 4
       y: 4
       width: 48
       height: 16
@@ -138,7 +138,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 383, y: 4}
+    uvTransform: {x: 4, y: 4}
   - name: bag-ui-second
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -146,7 +146,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 383
+      x: 4
       y: 52
       width: 47
       height: 15
@@ -158,7 +158,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 383, y: 52}
+    uvTransform: {x: 4, y: 52}
   - name: bg-ui-again
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -166,7 +166,7 @@ ScriptedImporter:
     border: {x: 3, y: 3, z: 3, w: 3}
     rect:
       serializedVersion: 2
-      x: 383
+      x: 4
       y: 28
       width: 48
       height: 16
@@ -178,27 +178,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 383, y: 28}
-  - name: bg-panel
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
-    border: {x: 48, y: 50, z: 35, w: 27}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 371
-      height: 223
-    spriteID: e825af63dd3b24f49af95a83a78d39b6
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 4, y: 28}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -250,23 +230,6 @@ ScriptedImporter:
         width: 48
         height: 16
       spriteId: e63fd11eb428c4b4f812ffba54b0b3fa
-    linkedCells: []
-    parentIndex: -1
-  - layerIndex: 3
-    guid: -948182587
-    name: bg-panel
-    layerFlags: 3
-    layerType: 0
-    blendMode: 0
-    cells:
-    - name: bg-panel
-      frameIndex: 0
-      cellRect:
-        x: 259
-        y: 70
-        width: 371
-        height: 223
-      spriteId: e825af63dd3b24f49af95a83a78d39b6
     linkedCells: []
     parentIndex: -1
   platformSettings:

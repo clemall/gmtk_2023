@@ -7,14 +7,14 @@ using UnityEngine.UIElements;
 public class Patrol : MonoBehaviour {
 
         public Transform[] points;
-        private float speed = 4f;
-        private float fastSpeed = 6f;
+        private float speed = 1.8f;
+        private float fastSpeed = 4.5f;
         private int pIndex = 0;
         
-        private float chaseTime = 1.5f;
+        private float chaseTime = 1.3f;
         private bool canChase = true;
         private bool doChase = false;
-        private float chaseDistance = 5f;
+        private float chaseDistance = 7f;
         private float waitTime = 2f;
         
         private SpriteRenderer sr;

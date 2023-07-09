@@ -23,4 +23,9 @@ public class FishPole : MonoBehaviour
             col.gameObject.layer = Mathf.RoundToInt(Mathf.Log(trashLayerForFishMan.value, 2));
         }
     }
+
+    public void ResetTrigger()
+    {
+        hasBeenTrigger = false;
+    }
 }

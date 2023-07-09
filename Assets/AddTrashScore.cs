@@ -13,9 +13,9 @@ public class AddTrashScore : MonoBehaviour
     {
         if ((trashLayerForFishMan.value & (1 <<col.gameObject.layer)) > 0)
         {
-            GameManager.instance.addTrashToScore();
-            gameObject.SetActive(false);
-            Destroy(transform.gameObject);
+            GameManager.instance.addTrashToScore(col.gameObject.name, col.transform.position.x);
+            col.gameObject.SetActive(false);
+            Destroy(col.transform.gameObject);
         }
     }
 }
