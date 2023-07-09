@@ -24,6 +24,10 @@ public class Player : MonoBehaviour
     public int maxEnergy = 30;
     
     public float waitTime = 1f;
+
+    public bool debugDogMode = false;
+    
+    public AudioSource deadFish;
     // public float acceleration = 1f;
     // public float deacceleration = 2f;
     // public float maxSpeed = 100f;
@@ -100,9 +104,16 @@ public class Player : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D col)
     {
+
+        if (debugDogMode)
+        {
+            return;
+        }
         
         if ((layerDeath.value & (1 <<col.gameObject.layer)) > 0)
         {
+            col.gameObject.SetActive(false);
+            deadFish.Play();
             GameManager.instance.GameOver();
         }
         else if ((layerPlankton.value & (1 <<col.gameObject.layer)) > 0)
@@ -121,6 +132,11 @@ public class Player : MonoBehaviour
 
 
             if (GameManager.instance.isPause || GameManager.instance.isGameover)
+            {
+                continue;
+            }
+            
+            if (debugDogMode)
             {
                 continue;
             }

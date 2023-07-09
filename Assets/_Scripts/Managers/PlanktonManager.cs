@@ -74,7 +74,7 @@ public class PlanktonManager : MonoBehaviour
             {
               SpawnPlankton(spawningArea2,planktonsInGame2); 
             }
-            if (planktonsInGame3.Count < 200)
+            if (planktonsInGame3.Count < 120)
             {
               SpawnPlankton(spawningArea3, planktonsInGame3); 
             }

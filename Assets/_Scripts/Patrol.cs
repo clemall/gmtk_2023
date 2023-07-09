@@ -14,12 +14,15 @@ public class Patrol : MonoBehaviour {
         private float chaseTime = 1.3f;
         private bool canChase = true;
         private bool doChase = false;
-        private float chaseDistance = 7f;
+        private float chaseDistance = 5.5f;
         private float waitTime = 2f;
         
         private SpriteRenderer sr;
 
         public Transform target;
+
+        public AudioSource patrolSound;
+        public AudioSource attackSound;
 
 
         void Start () {
@@ -66,6 +69,8 @@ public class Patrol : MonoBehaviour {
 
             if (doChase)
             {
+                patrolSound.enabled = false;
+                attackSound.enabled = true;
                 transform.position = Vector2.MoveTowards(transform.position,target.position, fastSpeed * Time.deltaTime);
                 
                 if (transform.position.x > target.position.x)
@@ -86,6 +91,8 @@ public class Patrol : MonoBehaviour {
             
             if (pIndex <= points.Length - 1)
             {
+                patrolSound.enabled = true;
+                attackSound.enabled = false;
                 transform.position = Vector2.MoveTowards(transform.position,points[pIndex].transform.position, speed * Time.deltaTime);
                 if (transform.position == points[pIndex].transform.position)
                 {

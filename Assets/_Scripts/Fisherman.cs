@@ -21,7 +21,7 @@ public class Fisherman : MonoBehaviour
     void Start()
     {
         
-        tweenDown = DOTween.Sequence();
+        tweenDown = DOTween.Sequence().SetId("toBePause");
         
         initialPosition = transform.position.y;
         float finalPosition = Random.Range(minDepthDistance, maxDepthDistance);
@@ -45,7 +45,7 @@ public class Fisherman : MonoBehaviour
         hisGoingUp = true;
         float d = durationAnimation;
  
-        transform.DOMoveY(initialPosition, durationAnimation * 2).SetId("toBePause").SetEase(Ease.InQuad).OnComplete(Delete);;
+        transform.DOMoveY(initialPosition, d).SetId("toBePause").SetEase(Ease.InQuad).OnComplete(Delete);;
     }
 
     public void GoUpNormal()
@@ -57,7 +57,7 @@ public class Fisherman : MonoBehaviour
         tweenDown.Kill();
         hisGoingUp = true;
         float d = durationAnimation* 2;;
-        transform.DOMoveY(initialPosition, durationAnimation * 2).SetId("toBePause").SetDelay(durationAnimation).SetEase(Ease.InQuad).OnComplete(Delete);;
+        transform.DOMoveY(initialPosition, d).SetId("toBePause").SetDelay(durationAnimation).SetEase(Ease.InQuad).OnComplete(Delete);;
     }
     
     void Delete()

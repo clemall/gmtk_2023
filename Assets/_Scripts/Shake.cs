@@ -9,6 +9,13 @@ public class Shake : MonoBehaviour
 
     void Update()
     {
+        
+        if (GameManager.instance.isPause || GameManager.instance.isGameover)
+        {
+            return;
+        }
+
+        
         float offsetX = Random.Range(-1f, 1f);
         float offsety = Random.Range(-1f, 1f);
         

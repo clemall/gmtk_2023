@@ -14,6 +14,12 @@ public class Harpoon : MonoBehaviour
 
     private float durationAnimation;
 
+    private Transform target;
+    
+    public AudioSource sound;
+
+    public Collider2D col;
+
     private void Awake()
     {
          durationAnimation = Random.Range(4f, 8f);
@@ -26,7 +32,7 @@ public class Harpoon : MonoBehaviour
 
     void GoDown()
     {
-        
+        col.enabled = false;
         transform.DOMoveY(transform.position.y - 0.5f,  1).SetId("toBePause").SetEase(Ease.InQuad).OnComplete(Delete);
         image.DOFade(0, 0.5f).SetId("toBePause");
     }
@@ -39,6 +45,7 @@ public class Harpoon : MonoBehaviour
 
     public void SetTarget(Transform t)
     {
+        target = t;
         transform.DOMove(t.position, durationAnimation).SetId("toBePause").SetEase(Ease.OutQuart).OnComplete(GoDown);
 
         Vector3 dir = t.position - transform.position;
@@ -47,7 +54,15 @@ public class Harpoon : MonoBehaviour
         
         StartCoroutine("stopParticle");
     }
-    
+
+    public void Update()
+    {
+        if (target && sound.enabled != true && Vector2.Distance(target.transform.position, transform.position) < 10f)
+        {
+            sound.enabled = true;
+        }
+    }
+
     private IEnumerator stopParticle()
     {
         yield return new WaitForSeconds(durationAnimation - 0.5f);
