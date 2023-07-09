@@ -20479,8 +20479,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: YOU SAVED YOUR OCEAN AND ALL YOUR FELLOW FISH. NO ONE WILL DARE TO THROW
-    TRASHED HERE AGAIN. YOU ARE AN HERO.
+  m_text: YOU SAVED YOUR OCEAN AND ALL YOUR FISH FRIENDS. NO ONE WILL DARE TO THROW
+    TRASH IN YOUR OCEAN AGAIN. YOU ARE A HERO.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8360ac318a0fdc34c87bc72b72e67ba3, type: 2}
   m_sharedMaterial: {fileID: -5705911472162468172, guid: 8360ac318a0fdc34c87bc72b72e67ba3, type: 2}
@@ -24075,8 +24075,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2253213341683259733, guid: 0cf6f871ceb16dd47aebfc70bca5fca6, type: 3}
-  m_Color: {r: 0.7971698, g: 0.9024715, b: 1, a: 1}
+  m_Sprite: {fileID: -7365826013987547965, guid: 0cf6f871ceb16dd47aebfc70bca5fca6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
